@@ -1,3 +1,9 @@
+import {
+    aws, css, html, javascript, mongodb, 
+    nodejs, reactjs, tailwind, coniferpoint,
+    hometown, dadir_design, ai_summary
+} from '../assets'
+
 const navLinks = [
     {
         id: "about",
@@ -24,16 +30,16 @@ const technologies = [
         icon: css,
     },
     {
+        name: "MongoDB",
+        icon: mongodb
+    },
+    {
         name: "JavaScript",
         icon: javascript,
     },
     {
         name: "React JS",
         icon: reactjs,
-    },
-    {
-        name: "Redux Toolkit",
-        icon: redux,
     },
     {
         name: "Tailwind CSS",
@@ -44,9 +50,9 @@ const technologies = [
         icon: nodejs,
     },
     {
-        name: "git",
-        icon: git,
-    },
+        name: "AWS",
+        icon: aws
+    }
 ];
 
 
@@ -54,7 +60,7 @@ const experiences = [
     {
         title: "Full-stack Web Developer",
         company_name: "Conifer Point",
-        icon: conifer_point,
+        icon: coniferpoint,
         iconBg: "#383E56",
         date: "October 2023 - April 2024",
         points: [
@@ -184,4 +190,4 @@ const projects = [
     },
 ]
 
-export { navLinks, services, technologies, experiences, testimonials, projects };
+export { navLinks, technologies, experiences, testimonials, projects };

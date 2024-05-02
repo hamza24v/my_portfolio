@@ -1,0 +1,1 @@
+- use app.logo to generate logo for name: Hamza
