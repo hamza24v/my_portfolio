@@ -13,9 +13,21 @@ import hometown from "./company/hometown.png"
 import dadir_design from "./projects/dadir_design.png"
 import ai_summary from "./projects/ai_summary.png"
 
+import logo from "./hamza-logo.png"
+import menu from "./menu.svg"
+import close from "./close.svg"
+import nick_lamb from './testimonials/nick-lamb.png'
+import nick_dom from './testimonials/nick-dom.png'
+import dbryan from './testimonials/dbryan.png'
+import avatarman from './testimonials/avatarman.png'
+import avatarwomen from './testimonials/avatarwomen.png'
+import zach_warf from './testimonials/zach-warf.png'
+
 export {
     css, html, javascript,
     mongodb, nodejs, reactjs,
     tailwind, aws, coniferpoint,
-    hometown, dadir_design, ai_summary
+    hometown, dadir_design, ai_summary,
+    logo, close, menu, nick_dom, nick_lamb,
+    avatarman, dbryan, avatarwomen, zach_warf
 }

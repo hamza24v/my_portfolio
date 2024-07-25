@@ -1,7 +1,9 @@
 import {
     aws, css, html, javascript, mongodb, 
     nodejs, reactjs, tailwind, coniferpoint,
-    hometown, dadir_design, ai_summary
+    hometown, dadir_design, ai_summary, 
+    nick_lamb, nick_dom, zach_warf,
+    avatarman, avatarwomen, dbryan
 } from '../assets'
 
 const navLinks = [
@@ -10,11 +12,15 @@ const navLinks = [
         title: "About",
     },
     {
-        id: "work",
-        title: "Work",
+        id: "experience",
+        title: "Experience",
     },
     {
-        id: "contact",
+        id: "testimonials",
+        title: "Testimonials",
+    },
+    {
+        id: "projects",
         title: "Contact",
     },
 ];
@@ -59,17 +65,16 @@ const technologies = [
 const experiences = [
     {
         title: "Full-stack Web Developer",
-        company_name: "Conifer Point",
+        company_name: "Conifer Point (contract)",
         icon: coniferpoint,
         iconBg: "#383E56",
         date: "October 2023 - April 2024",
         points: [
-            "Spearheading the development of a dormant application, frontend and backend (React, Python, SqlAlchemy, MySQL, Graphql, AWS)\ enhancing chemists' capability to examine natural product interactions with body proteins for computational drug discovery.",
-            "Implemented GraphQL's robust pagination features, resulting in a significant reduction of high-volume molecule detail queries by up to 550%. This addressed critical UI responsiveness issues acknowledged by management.",
-            "Acquired devOps skills in troubleshooting EC2 instance crashes, rerouting to designated domain names using Route 53, enhancing system reliability and performance.",
-            "Successfully upgraded data sources to the latest 2023 versions, deployed updates to AWS S3, efficiently migrated data to a new database system, and updated AWS Lambda functions, ensuring seamless data continuity and enhanced performance.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-            "Achieved a 60% reduction in product search times through SQL query optimization and bottleneck elimination, significantly improving user experience."
+            "Spearheaded the development of a dormant molecule lookup application using React and AWS Lambda, prompting the CEO to initiate the refunding request process with the Gates Foundation.",
+            "Revitalized a dormant GraphQL codebase for complex queries, reducing large molecule search times by 550%.",
+            "Optimized SQLAlchemy and MySQL queries, reducing average search times by 60%",
+            "Successfully upgraded data sources to latest versions, deployed to AWS S3, then migrated data to a new database system ensuring seamless data continuity and new computational research",
+            "Troubleshot EC2 instance crashes and optimized AWS Route 53 routing, improving uptime.",
         ],
     },
     {
@@ -88,7 +93,7 @@ const experiences = [
 
 const testimonials = [
     {
-        testimonial:
+        quote:
             "I have seen my fair share of engineers and developers throughout my career.\
             Hamza Shueib is someone who has really stood out when I think back about those I've\
             encountered. Hamza has demonstrated many great qualities and skills that I\
@@ -96,46 +101,59 @@ const testimonials = [
             great ability to adapt and context switch when asked. Through his experience here he\
             has shown myself and my team how bright his future truly is.",
         name: "Zach Warf",
-        designation: "Mobile Development Delivery Manager",
+        title: "Mobile Development Delivery Manager",
         company: "Hometown Ticketing",
+        img: zach_warf
     },
     {
-        testimonial:
+        quote:
             "He was a quick learner with Xcode, already tackling complex storyboarding constraints used to position and align UI components in apps)\
             within a matter of days. He also picked up the Swift language very quickly, producing clean and readable code.",
         name: "Daniel Gump",
-        designation: "Mobile Engineering Tech Lead",
+        title: "Mobile Engineering Tech Lead",
         company: "Hometown Ticketing",
+        img: avatarman
     },
     {
-        testimonial:
+        quote:
             "Hamza played the key role in resuming development on our search tool for “Natural Product” molecules,\
             which had been lying dormant for over a year. Hamza was a wonderful part of our team. He brings joy, enthusiasm, and integrity to the work.\
             He quickly finds solutions for problems but is teachable, always ready to learn the principles that suggest\
             alternate approaches",
         name: "Daniel Bryan",
-        designation: "Chief Software Architect",
+        title: "Chief Software Architect",
         company: "Conifer Point",
+        img: dbryan
     },
     {
-        testimonial:
+        quote:
             "Hamza is eager to hop in and start working independently but is also ready to ask great\
             questions and take feedback and advice when offered. He was asked to begin working\
             on a script and was able to begin scaffolding the structure right away. When it became a\
             more urgent matter and I took over, he provided valuable insight into things that I\
             missed and would have had to correct down the road.",
         name: "Nick Lamb",
-        designation: "Senior Support Engineer",
+        title: "Senior Support Engineer",
         company: "Hometown Ticketing",
+        img: nick_lamb
     },
     {
-        testimonial:
-            "“Hamza is an extremely bright and driven individual who will provide great value from a\
+        quote:
+            "Hamza is an extremely bright and driven individual who will provide great value from a\
             technical contribution and culture perspective to any company that brings him on",
         name: "Nick Domitio",
-        designation: "Web Development Delivery Manager",
+        title: "Web Development Delivery Manager",
         company: "Hometown Ticketing",
+        img: nick_dom
     },
+    {
+        quote: "Hamza is extremely eager to work and tackle new challenges. He is inquisitive when\
+                being shown new information in order to understand the processes we use.",
+        name: "August Newman",
+        title: "Support Engineer",
+        company: "Hometown Ticketing",
+        img: avatarwomen
+    }
 ]
 
 
