@@ -23,6 +23,9 @@ function App() {
         <section id='testimonials'>
           <Testimonials />
         </section>
+        <section id='projects'>
+          <Projects />
+        </section>
       </div>
     </BrowserRouter>
   )

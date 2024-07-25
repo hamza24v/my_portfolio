@@ -3,7 +3,8 @@ import {
     nodejs, reactjs, tailwind, coniferpoint,
     hometown, dadir_design, ai_summary, 
     nick_lamb, nick_dom, zach_warf,
-    avatarman, avatarwomen, dbryan
+    avatarman, avatarwomen, dbryan,
+    openai, david_narrates, lambda
 } from '../assets'
 
 const navLinks = [
@@ -21,7 +22,7 @@ const navLinks = [
     },
     {
         id: "projects",
-        title: "Contact",
+        title: "Projects",
     },
 ];
 
@@ -159,53 +160,35 @@ const testimonials = [
 
 const projects = [
     {
+        id: 1,
         name: "Dadir Designs",
         description:
             "Web based platform for a furniture assembly company: Dadir Design. This service will allow users to view galleries, reviews, book appointments, and buy services",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "mongodb",
-                color: "green-text-gradient",
-            },
-            {
-                name: "tailwind",
-                color: "pink-text-gradient",
-            },
-            {
-                name: "nodejs",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: dadir_design,
-        source_code_link: "https://github.com/hamza24v/Dadir_design",
+        iconLists: [reactjs, javascript, nodejs, aws, tailwind],
+        img: dadir_design,
+        source_code: "https://github.com/hamza24v/Dadir_design",
+        livelink: ""
     },
-
     {
-        name: "Ai summarizer",
+        id: 2,
+        name: "Ai Summarizer",
         description:
             "Ever came across a dauntingly long article and started etching for a TLDR note that's no where to be found? Let me introduce you to the TLDR service you've been looking\
           been etching for. This Ai summarizer will take any article link that you feed it and summarize the article for you in bite sized fashion.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "OpenAI",
-                color: "green-text-gradient",
-            },
-            {
-                name: "tailwind",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: ai_summary,
-        source_code_link: "https://github.com/hamza24v/ai_summarizer",
+        iconLists: [reactjs,javascript, nodejs, tailwind, openai],
+        img: ai_summary,
+        source_code: "https://github.com/hamza24v/ai_summarizer",
+        livelink: "https://aisummaryy.netlify.app/"
     },
+    {
+        id: 3,
+        name: "David Narrates",
+        description: "AI based web app used to transform everyday photos into fun and engaging documentary-style stories, narrated by the iconic voice of David Atenborough renowned for his work with National Geographic",
+        iconLists: [reactjs, nodejs, tailwind, lambda, openai],
+        img: david_narrates,
+        source_code: 'https://github.com/hamza24v/david_narrates/tree/node_backend',
+        livelink: "https://dqsonwlvmbxv9.cloudfront.net/index.html"
+    }
 ]
 
 export { navLinks, technologies, experiences, testimonials, projects };
