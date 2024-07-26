@@ -1,28 +1,28 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./src/assets/hamza-logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hamza's Portfolio</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="./src/assets/hamza-logo.png" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hamza's Portfolio </title>
-</head>
+  <body class="bg-slate-950 overflow-x-hidden">
+    <div class="z-0 fixed w-full h-full top-0 left-0 pointer-events-none">
+      <div class="absolute inset-0 pointer-events-auto" id="particles-js"></div>
+    </div>
+    <div class="relative z-0" id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 
-<body class="bg-slate-950">
-
-
-  <div class="absolute w-full ">
-  <div id="root"></div>
-    <div class="z-[-5] opacity-70 absolute inset-0" id="particles-js"></div>
-  </div>
-  <script type="module" src="/src/main.jsx"></script>
-  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-
-  <script>
-    particlesJS.load('particles-js', 'src/assets/particles.json', function () {
-      console.log('callback - particles-js config loaded');
-    });
-  </script>
-</body>
-
+    <script>
+      particlesJS.load(
+        "particles-js",
+        "src/assets/particles.json",
+        function () {
+          console.log("callback - particles-js config loaded");
+        }
+      );
+    </script>
+  </body>
 </html>
