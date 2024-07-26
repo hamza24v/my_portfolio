@@ -41,7 +41,7 @@ const Projects = () => {
                     rel="noopener noreferrer"
                     className="flex absolute items-center justify-center w-14 h-14 rounded-full z-10 top-0 right-0  hover:scale-110 transition-transform duration-300"
                 >
-                    <FaGithub size='35' className="text-black " />
+                    <FaGithub size='35' className="text-black hover:bg-gray-300 rounded-full" />
                 </a>
             </div>
             

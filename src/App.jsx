@@ -4,22 +4,28 @@ import Projects from "./components/Projects";
 import Testimonials from "./components/Testimonials";
 import { BrowserRouter } from "react-router-dom";
 import About from "./components/About";
+import SocialHandle from "./components/ui/SocialHandle";
 
 function App() {
   return (
     <BrowserRouter>
       <div>
-        <Navbar />
-        <section id='about'>
-          <About />
+        <div className="relative z-50 ">
+          <Navbar />
+        </div>
+        <section id="about" className="">
+          <div className="flex flex-col items-center justify-center min-h-screen">
+            <About />
+            <SocialHandle />
+          </div>
         </section>
-        <section id='experience'>
+        <section className=" relative z-30" id="experience">
           <Experience />
         </section>
-        <section id='testimonials'>
+        <section className=" relative z-30" id="testimonials">
           <Testimonials />
         </section>
-        <section id='projects'>
+        <section className=" relative z-30" id="projects">
           <Projects />
         </section>
       </div>

@@ -167,8 +167,8 @@ const projects = [
         id: 1,
         name: "Dadir Designs",
         description:
-            "Web based platform for a furniture assembly company: Dadir Design. This service will allow users to view galleries, reviews, book appointments, and buy services",
-        iconLists: [reactjs, javascript, nodejs, aws, tailwind],
+            "Web based platform for a furniture assembly company: Dadir Design. This service allows users to view galleries, reviews, book appointments, and buy services.",
+        iconLists: [reactjs, javascript, nodejs, aws, tailwind, mongodb],
         img: dadir_design,
         source_code: "https://github.com/hamza24v/Dadir_design",
         livelink: ""
