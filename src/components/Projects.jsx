@@ -1,9 +1,10 @@
 import { FaLocationArrow } from "react-icons/fa6";
 import { motion } from "framer-motion";
 import { projects } from "../constants";
-import { textVariant } from "../utils/motion";
+import { textVariant, fadeIn } from "../utils/motion";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
+import { bgimg } from "../assets";
 
 const Projects = () => {
 
@@ -23,25 +24,27 @@ const Projects = () => {
       </motion.div>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
-          <div
-            className="flex flex-col items-center justify-center sm:w-96 w-[80vw] mb-10"
+          <motion.div
+            variants={fadeIn("", "", 0.1, 1)}
+            className="flex flex-col items-center justify-center sm:w-96 w-[80vw] mb-10 bg-gradient-to-r rounded-3xl from-slate-800 via-slate-900 to-slate-950"
+            
             key={item.id}
           >
-            <div className="relative flex items-center justify-center sm:w-96 w-[80vw] h-[30vh] overflow-hidden lg:rounded-3xl" style={{ backgroundColor: "#13162D" }}>
-              <img src={item.bgimg} alt="background" className="absolute inset-0 w-full h-full object-cover" />
+            <div className="relative flex items-center justify-center sm:w-96 w-[80vw] h-[30vh] overflow-hidden lg:rounded-3xl" >
               <img
                 src={item.img}
                 alt="cover"
                 className="z-10 absolute bottom-0 mb-4"
               />
             </div>
-            <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
+            
+            <h1 className="font-bold text-white lg:text-2xl md:text-xl text-base line-clamp-1">
               {item.name}
             </h1>
-            <p className="lg:text-lg lg:font-normal font-light text-sm line-clamp-5 text-gray-400 mt-2 mb-4">
+            <p className="lg:text-lg lg:font-normal font-light ml-4 text-sm line-clamp-4 text-gray-400 mt-2 mb-4">
               {item.description}
             </p>
-            <div className="flex items-center justify-between w-full mt-7 mb-3">
+            <div className="flex items-center justify-between w-full ml-4 mt-7 mb-3">
               <div className="flex items-center">
                 {item.iconLists.map((icon, index) => (
                   <div
@@ -64,7 +67,7 @@ const Projects = () => {
                 </div>
               )}
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
     </div>

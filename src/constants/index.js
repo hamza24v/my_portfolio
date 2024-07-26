@@ -11,18 +11,22 @@ const navLinks = [
     {
         id: "about",
         title: "About",
+        path: '/'
     },
     {
         id: "experience",
         title: "Experience",
+        path: '/experience'
     },
     {
         id: "testimonials",
         title: "Testimonials",
+        path: '/testimonials'
     },
     {
         id: "projects",
         title: "Projects",
+        path: '/projects'
     },
 ];
 
@@ -171,23 +175,23 @@ const projects = [
     },
     {
         id: 2,
-        name: "Ai Summarizer",
-        description:
-            "Ever came across a dauntingly long article and started etching for a TLDR note that's no where to be found? Let me introduce you to the TLDR service you've been looking\
-          been etching for. This Ai summarizer will take any article link that you feed it and summarize the article for you in bite sized fashion.",
-        iconLists: [reactjs,javascript, nodejs, tailwind, openai],
-        img: ai_summary,
-        source_code: "https://github.com/hamza24v/ai_summarizer",
-        livelink: "https://aisummaryy.netlify.app/"
-    },
-    {
-        id: 3,
         name: "David Narrates",
-        description: "AI based web app used to transform everyday photos into fun and engaging documentary-style stories, narrated by the iconic voice of David Atenborough renowned for his work with National Geographic",
+        description: "AI based web app used to transform everyday photos into fun and engaging documentary-style stories, narrated by the iconic voice of David Attenborough.",
         iconLists: [reactjs, nodejs, tailwind, lambda, openai],
         img: david_narrates,
         source_code: 'https://github.com/hamza24v/david_narrates/tree/node_backend',
         livelink: "https://dqsonwlvmbxv9.cloudfront.net/index.html"
+    },
+    {
+        id: 3,
+        name: "Ai Summarizer",
+        description:
+            "Ever came across a dauntingly long article and started etching for a TLDR note that's no where to be found? Let me introduce you to the AI summarizer.\
+          This website will summarize any article that you feed into it.",
+        iconLists: [reactjs,javascript, nodejs, tailwind, openai],
+        img: ai_summary,
+        source_code: "https://github.com/hamza24v/ai_summarizer",
+        livelink: "https://aisummaryy.netlify.app/"
     }
 ]
 
