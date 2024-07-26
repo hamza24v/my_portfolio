@@ -28,11 +28,13 @@ import avatarwomen from './testimonials/avatarwomen.png'
 import zach_warf from './testimonials/zach-warf.png'
 
 import bgimg from './bg.png'
+import github from './tech/github.png'
+
 export {
     css, html, javascript,
     mongodb, nodejs, reactjs,
     tailwind, aws, coniferpoint,
     hometown, dadir_design, ai_summary, bgimg,
     logo, close, menu, nick_dom, nick_lamb,avatarman,
-    dbryan, avatarwomen, zach_warf, lambda, openai, david_narrates
+    dbryan, avatarwomen, zach_warf, lambda, openai, david_narrates, github
 }
