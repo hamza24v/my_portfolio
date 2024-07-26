@@ -1,10 +1,8 @@
 import Navbar from './components/Navbar'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
-import Skills from './components/Skills'
 import Testimonials from './components/Testimonials'
-import Home from './components/Home'
-import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import About from './components/About'
 
 function App() {
@@ -14,18 +12,12 @@ function App() {
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
           <Navbar />
         </div>
-        <section id='about'>
-          <About />
-        </section>
-        <section id='experience'>
-          <Experience />
-        </section>
-        <section id='testimonials'>
-          <Testimonials />
-        </section>
-        <section id='projects'>
-          <Projects />
-        </section>
+        <Routes>
+          <Route path='/' element={<About />} />
+          <Route path='/experience' element={<Experience />} />
+          <Route path='/testimonials' element={<Testimonials />} />
+          <Route path='/projects' element={<Projects />} />
+        </Routes>
       </div>
     </BrowserRouter>
   )
