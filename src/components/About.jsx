@@ -34,7 +34,7 @@ function About() {
                     href="https://www.linkedin.com/in/hamza-shueib"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center justify-center w-14 h-14 rounded-full ring-1 text-slate-950 hover:scale-110 "
+                    className="flex items-center justify-center w-14 h-14 rounded-full ring-1 text-slate-950 hover:scale-110 transition-transform duration-300"
                 >
                     <FaLinkedin size='35' className="text-blue-600 " />
                 </a>
@@ -42,7 +42,7 @@ function About() {
                     href="https://github.com/hamza24v"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center justify-center w-14 h-14 rounded-full ring-1 text-slate-950 hover:scale-110 "
+                    className="flex items-center justify-center w-14 h-14 rounded-full ring-1 text-slate-950 hover:scale-110 transition-transform duration-300"
                 >
                     <FaGithub size='35' className="text-white " />
                 </a>

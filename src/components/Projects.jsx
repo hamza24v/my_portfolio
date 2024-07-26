@@ -1,10 +1,9 @@
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaGithub, FaLocationArrow } from "react-icons/fa6";
 import { motion } from "framer-motion";
 import { projects } from "../constants";
 import { textVariant, fadeIn } from "../utils/motion";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
-import { bgimg } from "../assets";
 
 const Projects = () => {
 
@@ -30,12 +29,20 @@ const Projects = () => {
             
             key={item.id}
           >
-            <div className="relative flex items-center justify-center sm:w-96 w-[80vw] h-[30vh] overflow-hidden lg:rounded-3xl" >
+            <div className="relative grid sm:w-96 w-[80vw] h-[30vh] overflow-hidden lg:rounded-3xl" >
               <img
                 src={item.img}
                 alt="cover"
                 className="z-10 absolute bottom-0 mb-4"
               />
+              <a
+                    href={item.source_code}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex absolute items-center justify-center w-14 h-14 rounded-full z-10 top-0 right-0  hover:scale-110 transition-transform duration-300"
+                >
+                    <FaGithub size='35' className="text-black " />
+                </a>
             </div>
             
             <h1 className="font-bold text-white lg:text-2xl md:text-xl text-base line-clamp-1">
