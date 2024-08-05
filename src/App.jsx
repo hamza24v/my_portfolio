@@ -5,6 +5,7 @@ import Testimonials from "./components/Testimonials";
 import { BrowserRouter } from "react-router-dom";
 import About from "./components/About";
 import SocialHandle from "./components/ui/SocialHandle";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
         </section>
         <section className=" relative z-30" id="projects">
           <Projects />
+        </section>
+        <section className=" relative z-30" id="contact">
+          <Contact />
         </section>
       </div>
     </BrowserRouter>

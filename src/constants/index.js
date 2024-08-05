@@ -28,6 +28,11 @@ const navLinks = [
         title: "Projects",
         path: '/projects'
     },
+    {
+        id: "contact",
+        title: "Contact",
+        path: '/contact'
+    },
 ];
 
 

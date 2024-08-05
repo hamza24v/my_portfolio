@@ -17,16 +17,11 @@ function About() {
         variants={fadeIn("", "", 0.1, 1)}
         className="text-white mt-4 text-center text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        As an ambitious software developer with a Bachelors in Computer
-        Engineering, I excel in creating dynamic, responsive websites and
-        applications using modern technologies React, SQL, MongoDB, Java, and
-        Python. Certified in AWS Cloud Practitioner, I am proficient in
-        deploying and maintaining scalable, secure cloud-based solutions. My
-        experience in a fast-paced startup environment has honed my ability to
-        quickly adapt and contribute across multiple domains, setting me apart
-        from my peers. I am passionate about leveraging my diverse skill set to
-        build innovative web solutions that meet complex business needs. Let's
-        connect!
+        As a driven software developer with a Bachelor's in Computer Engineering, I specialize in crafting 
+        dynamic, responsive websites and applications using React, SQL, MongoDB, Java, and Python. Certified 
+        as an AWS Cloud Practitioner, I excel in deploying scalable, secure cloud solutions. My startup 
+        experience has sharpened my adaptability and multi-domain expertise, setting me apart. I'm passionate 
+        about using my diverse skills to build innovative web solutions for complex business challenges.
       </motion.p>
     </div>
   );

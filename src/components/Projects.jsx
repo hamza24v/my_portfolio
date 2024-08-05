@@ -26,14 +26,12 @@ const Projects = () => {
           <motion.div
             variants={fadeIn("", "", 0.1, 1)}
             className="flex flex-col items-center justify-center sm:w-96 w-[80vw] mb-10 bg-gradient-to-r rounded-3xl from-slate-800 via-slate-900 to-slate-950"
-            
             key={item.id}
           >
             <div className="relative grid sm:w-96 w-[80vw] h-[30vh] overflow-hidden lg:rounded-3xl" >
               <img
                 src={item.img}
                 alt="cover"
-                className="z-10 absolute bottom-0 mb-4"
               />
               <a
                     href={item.source_code}
