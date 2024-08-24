@@ -9,6 +9,8 @@ import aws from "./tech/aws.png"
 import django from './tech/django.jpg'
 import openai from './tech/openai.png'
 import lambda from './tech/lambda.png'
+import nextjs from './tech/nextjs.png'
+import stripe from './tech/stripe.png'
 
 import coniferpoint from "./company/coniferpoint.png"
 import hometown from "./company/hometown.png"
@@ -16,6 +18,7 @@ import hometown from "./company/hometown.png"
 import dadir_design from "./projects/dadir_design.png"
 import ai_summary from "./projects/ai_summarizer.png"
 import david_narrates from './projects/david_narrates.png'
+import smart_cards from './projects/smart_cards.png'
 
 import logo from "./hamza-logo.png"
 import menu from "./menu.svg"
@@ -30,9 +33,9 @@ import zach_warf from './testimonials/zach-warf.png'
 import bgimg from './bg.png'
 
 export {
-    css, html, javascript,
-    mongodb, nodejs, reactjs,
-    tailwind, aws, coniferpoint,
+    css, html, javascript, nextjs,
+    mongodb, nodejs, reactjs, stripe,
+    tailwind, aws, coniferpoint, smart_cards,
     hometown, dadir_design, ai_summary, bgimg,
     logo, close, menu, nick_dom, nick_lamb,avatarman,
     dbryan, avatarwomen, zach_warf, lambda, openai, david_narrates, 
