@@ -25,7 +25,7 @@ import {
   stripe,
   pinecone,
   profsrated,
-  headstarter
+  headstarter,
 } from "../assets";
 
 const navLinks = [
@@ -215,15 +215,15 @@ const projects = [
   },
   {
     id: 2,
-    name: "Ai Summarizer",
+    name: "Profs Rated AI",
     description:
-      "Ever came across a dauntingly long article and started etching for a TLDR note that's no where to be found? Let me introduce you to the AI summarizer.\
-          This website will summarize any article that you feed into it.",
-    iconLists: [reactjs, javascript, nodejs, tailwind, openai],
-    img: ai_summary,
-    source_code: "https://github.com/hamza24v/ai_summarizer",
-    livelink: "https://aisummaryy.netlify.app/",
+      "Trained on a dataset of 20,000 samples from Rate My Professor, Profs Rated AI is designed to empower students by providing insightful, AI-driven reviews and ratings of professors.",
+    iconLists: [nextjs, javascript, tailwind, openai, pinecone],
+    img: profsrated,
+    source_code: "https://github.com/umerp/AI-rate-my-professor",
+    livelink: "https://ai-rate-my-professor-umerps-projects.vercel.app/",
   },
+
   {
     id: 3,
     name: "Dadir Designs",
@@ -246,13 +246,14 @@ const projects = [
   },
   {
     id: 5,
-    name: "Profs Rated AI",
+    name: "Ai Summarizer",
     description:
-      "Trained on a dataset of 20,000 samples from Rate My Professor, Profs Rated AI is designed to empower students by providing insightful, AI-driven reviews and ratings of professors.",
-    iconLists: [nextjs, tailwind, openai, pinecone],
-    img: profsrated,
-    source_code: "https://github.com/umerp/AI-rate-my-professor",
-    livelink: "https://ai-rate-my-professor-umerps-projects.vercel.app/",
+      "Ever came across a dauntingly long article and started etching for a TLDR note that's no where to be found? Let me introduce you to the AI summarizer.\
+          This website will summarize any article that you feed into it.",
+    iconLists: [reactjs, javascript, nodejs, tailwind, openai],
+    img: ai_summary,
+    source_code: "https://github.com/hamza24v/ai_summarizer",
+    livelink: "https://aisummaryy.netlify.app/",
   },
 ];
 
