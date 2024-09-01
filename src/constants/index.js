@@ -23,6 +23,9 @@ import {
   smart_cards,
   nextjs,
   stripe,
+  pinecone,
+  profsrated,
+  headstarter
 } from "../assets";
 
 const navLinks = [
@@ -89,6 +92,21 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Software Engineer Fellow",
+    company_name: "Headstarter",
+    icon: headstarter,
+    iconBg: "#383E56",
+    date: "July 2024 - September 2024",
+    points: [
+      "Built 5 AI apps and APIs using NextJS, OpenAI, Pinecone, StripeAPI with 98% accuracy, as seen by 1000 users.",
+      `Led and mentored a team of 3 fellows in mastering Git best practices and the MVC software design pattern ,
+        resulting in their ability to independently manage a full project lifecycle from blueprint to launch within just 4
+        weeks.`,
+      `Coached by Amazon, Bloomberg, and Capital One engineers on Agile, CI/CD, Git, and microservice
+        patterns.`,
+    ],
+  },
   {
     title: "Full-stack Web Developer",
     company_name: "Conifer Point (contract)",
@@ -225,6 +243,16 @@ const projects = [
     img: david_narrates,
     source_code: "https://github.com/hamza24v/david_narrates/tree/node_backend",
     livelink: "https://dqsonwlvmbxv9.cloudfront.net/index.html",
+  },
+  {
+    id: 5,
+    name: "Profs Rated AI",
+    description:
+      "Trained on a dataset of 20,000 samples from Rate My Professor, Profs Rated AI is designed to empower students by providing insightful, AI-driven reviews and ratings of professors.",
+    iconLists: [nextjs, tailwind, openai, pinecone],
+    img: profsrated,
+    source_code: "https://github.com/umerp/AI-rate-my-professor",
+    livelink: "https://ai-rate-my-professor-umerps-projects.vercel.app/",
   },
 ];
 

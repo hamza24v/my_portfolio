@@ -11,14 +11,17 @@ import openai from './tech/openai.png'
 import lambda from './tech/lambda.png'
 import nextjs from './tech/nextjs.png'
 import stripe from './tech/stripe.png'
+import pinecone from './tech/pinecone.png'
 
 import coniferpoint from "./company/coniferpoint.png"
 import hometown from "./company/hometown.png"
+import headstarter from './company/headstarter.jpg'
 
 import dadir_design from "./projects/dadir_design.png"
 import ai_summary from "./projects/ai_summarizer.png"
 import david_narrates from './projects/david_narrates.png'
 import smart_cards from './projects/smart_cards.png'
+import profsrated from './projects/profsrated.png'
 
 import logo from "./hamza-logo.png"
 import menu from "./menu.svg"
@@ -35,8 +38,8 @@ import bgimg from './bg.png'
 export {
     css, html, javascript, nextjs,
     mongodb, nodejs, reactjs, stripe,
-    tailwind, aws, coniferpoint, smart_cards,
-    hometown, dadir_design, ai_summary, bgimg,
-    logo, close, menu, nick_dom, nick_lamb,avatarman,
+    tailwind, aws, coniferpoint, smart_cards, pinecone,
+    hometown, dadir_design, ai_summary, bgimg, profsrated,
+    logo, close, menu, nick_dom, nick_lamb,avatarman, headstarter,
     dbryan, avatarwomen, zach_warf, lambda, openai, david_narrates, 
 }
