@@ -31,6 +31,19 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
+    if(!form.message.trim()) {
+      setLoading(false);
+      toast.error("Please enter your message.", {
+        className: "custom-toastify-toast",
+        progressClassName: "custom-toastify-progress-bar",
+        closeButton: ({ closeToast }) => (
+          <button onClick={closeToast} className="custom-toastify-close-button">
+            X
+          </button>
+        ),
+      });
+      return;
+    }
     emailjs
       .send(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
