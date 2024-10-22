@@ -9,7 +9,7 @@ import {
   tailwind,
   coniferpoint,
   hometown,
-  dadir_design,
+  ophela_services,
   ai_summary,
   nick_lamb,
   nick_dom,
@@ -226,13 +226,13 @@ const projects = [
 
   {
     id: 3,
-    name: "Dadir Designs",
+    name: "Ophela Services",
     description:
-      "Web based platform for a furniture assembly company: Dadir Design. This service allows users to view galleries, reviews, book appointments, and buy services.",
+      "Developed a professional e-commerce platform: Ophela Services, a real furniture service company. This service allows users to view galleries, reviews, and buy services.",
     iconLists: [reactjs, javascript, nodejs, aws, tailwind, mongodb],
-    img: dadir_design,
-    source_code: "https://github.com/hamza24v/Dadir_design",
-    livelink: "",
+    img: ophela_services,
+    source_code: "https://github.com/hamza24v/dadir_design",
+    livelink: "https://www.ophelaservices.com",
   },
   {
     id: 4,
