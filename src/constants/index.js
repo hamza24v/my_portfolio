@@ -99,7 +99,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "July 2024 - September 2024",
     points: [
-      "Built 5 AI apps and APIs using NextJS, OpenAI, Pinecone, StripeAPI with 98% accuracy, as seen by 1000 users.",
+      "Built 5 AI apps and APIs using NextJS, OpenAI, Pinecone, StripeAPI with 98% accuracy.",
       `Led and mentored a team of 3 fellows in mastering Git best practices and the MVC software design pattern ,
         resulting in their ability to independently manage a full project lifecycle from blueprint to launch within just 4
         weeks.`,
