@@ -26,6 +26,7 @@ import {
   pinecone,
   profsrated,
   headstarter,
+  opers,
 } from "../assets";
 
 const navLinks = [
@@ -92,6 +93,17 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Full-stack Developer",
+    company_name: "OPERS",
+    icon: opers,
+    iconBg: "#383E56",
+    date: "December 2024 - Present",
+    points: [
+      "Developed and maintained RESTful APIs using Spring Boot, implementing robust error handling and logging for high-traffic authentication endpoints",
+      "Demonstrated rapid codebase mastery by quickly adapting to the Java Spring Boot and Angular tech stack, earning recognition from management for immediate contributions to critical projects"
+    ]
+  },
   {
     title: "Software Engineer Fellow",
     company_name: "Headstarter",
