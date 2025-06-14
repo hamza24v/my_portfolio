@@ -94,7 +94,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full-stack Developer",
+    title: "Full-Stack Software Developer",
     company_name: "OPERS",
     icon: opers,
     iconBg: "#383E56",
