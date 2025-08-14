@@ -249,16 +249,6 @@ const projects = [
   },
   {
     id: 4,
-    name: "David Narrates",
-    description:
-      "AI based web app used to transform everyday photos into fun and engaging documentary-style stories, narrated by the iconic voice of David Attenborough.",
-    iconLists: [reactjs, nodejs, tailwind, lambda, openai],
-    img: david_narrates,
-    source_code: "https://github.com/hamza24v/david_narrates/tree/node_backend",
-    livelink: "https://dqsonwlvmbxv9.cloudfront.net/index.html",
-  },
-  {
-    id: 5,
     name: "Ai Summarizer",
     description:
       "Ever came across a dauntingly long article and started etching for a TLDR note that's no where to be found? Let me introduce you to the AI summarizer.\
