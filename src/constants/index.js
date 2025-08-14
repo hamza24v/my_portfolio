@@ -100,11 +100,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "December 2024 - Present",
     points: [
-      "Developed and maintained RESTful APIs using Spring Boot, implementing robust error handling and logging for high-traffic authentication endpoints",
-      "Demonstrated rapid codebase mastery by quickly adapting to the Java Spring Boot and Angular tech stack, earning recognition from management for immediate contributions to critical projects",
-      "Spearheaded the development of an internal AI Productivity Hub with documentation and guides to boost team efficiency, including writing a “GitHub Copilot Model Selection Guide”, leading AI literacy efforts amid company-wide caution around AI adoption.",
-      "Recognized for rapid career advancement and AI expertise, earning selection to the CTO-led AI Task Force to strategically research, quantify, and communicate AI's transformative organizational value to executive leadership — a pivotal role in a highly risk-averse environment.",
-      "Championed enterprise-wide AI adoption by designing and delivering targeted training programs, and collaborating in live demonstrations and presentations to promote AI integration across departments.",
+      "Developed and maintained high-traffic authentication RESTful APIs using Spring Boot, implementing robust error handling and logging to ensure reliability and scalability.",
+      "Quickly mastered the Java Spring Boot and Angular tech stack, earning management recognition for immediate contributions to a major registration redesign project.",
+      "Led a cultural shift toward responsible AI adoption in a highly risk-averse environment — launched an internal AI Productivity Hub, authored key enablement resources (“GitHub Copilot Model Selection Guide” and “Standardizing GitHub Copilot Output to Align with OPERS Practices”), and, as a member of the CTO-led AI Task Force, influenced executive perspectives by quantifying AI’s organizational value while equipping teams through targeted training, presentations, and cross-departmental collaborations.",
     ]
   },
   {
