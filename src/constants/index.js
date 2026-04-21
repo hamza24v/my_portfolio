@@ -100,10 +100,14 @@ const experiences = [
     iconBg: "#383E56",
     date: "December 2024 - Present",
     points: [
-      "Developed and maintained high-traffic authentication RESTful APIs using Spring Boot, implementing robust error handling and logging to ensure reliability and scalability.",
-      "Quickly mastered the Java Spring Boot and Angular tech stack, earning management recognition for immediate contributions to a major registration redesign project.",
-      "Led a cultural shift toward responsible AI adoption in a highly risk-averse environment — launched an internal AI Productivity Hub, authored key enablement resources (“GitHub Copilot Model Selection Guide” and “Standardizing GitHub Copilot Output to Align with OPERS Practices”), and, as a member of the CTO-led AI Task Force, influenced executive perspectives by quantifying AI’s organizational value while equipping teams through targeted training, presentations, and cross-departmental collaborations.",
-    ]
+      "Built and maintained high-traffic authentication APIs using Spring Boot with robust error handling and logging for scalability and reliability.",
+      "Contributed early to a major Angular/Spring Boot registration redesign, quickly ramping up and delivering immediate impact.",
+      "Led AI adoption initiatives by launching an internal AI hub and authoring Copilot best practices to standardize usage.",
+      "Delivered AI training sessions across IT (agents, prompt engineering, MCP) to drive adoption and developer effectiveness.",
+      "Built the first AI agent for ADA accessibility, supporting compliance efforts and project deadlines.",
+      "Developed the first internal MCP server to securely connect AI systems with enterprise APIs.",
+      "Collaborated with a CTO-led AI task force to shape AI strategy and enable cross-team adoption.",
+    ],
   },
   {
     title: "Software Engineer Fellow",
