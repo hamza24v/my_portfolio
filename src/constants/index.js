@@ -107,6 +107,7 @@ const experiences = [
       "Built the first AI agent for ADA accessibility, supporting compliance efforts and project deadlines.",
       "Developed the first internal MCP server to securely connect AI systems with enterprise APIs.",
       "Collaborated with a CTO-led AI task force to shape AI strategy and enable cross-team adoption.",
+      "Hand-picked by the CTO to lead the creation of an in-house NIST Authorization Framework app leveraging Okta. This app –PDP specifically–will be the highest hit API in the entire org."
     ],
   },
   {
